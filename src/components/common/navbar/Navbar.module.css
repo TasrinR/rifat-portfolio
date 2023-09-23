@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  padding: 0 165px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 10;
+}
+
+.container.colored {
+  background: linear-gradient(
+    180deg,
+    rgba(91, 91, 91, 0) -162.98%,
+    #5b5b5b 349.52%
+  );
+  backdrop-filter: blur(7.5px);
+}
+
+.logo {
+  color: #fff;
+  font-family: "Fasthand";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 310px;
+  gap: 64px;
+  margin-left: 15px;
+}
+
+.nav a {
+  color: #fff;
+  font-family: "Zen Kaku Gothic New Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.contact-button {
+  color: #fff;
+  font-family: "Zen Kaku Gothic New Bold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Fasthand";
+  src: url("/fonts/fasthand-regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Caveat Brush";
+  src: url("/fonts/caveat-brush-regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic New Black";
+  src: url("/fonts/zen-kaku-gothic-new-black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic New Bold";
+  src: url("/fonts/zen-kaku-gothic-new-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic New Light";
+  src: url("/fonts/zen-kaku-gothic-new-light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic New Regular";
+  src: url("/fonts/zen-kaku-gothic-new-regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Zen Kaku Gothic New Medium";
+  src: url("/fonts/zen-kaku-gothic-new-medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}

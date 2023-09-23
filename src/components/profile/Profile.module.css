@@ -1,0 +1,51 @@
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 63px;
+  margin-bottom: 64px;
+  background-color: white;
+}
+
+.about-me-section {
+  padding: 0 165px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.content {
+  color: #bebebe;
+  font-family: Zen Kaku Gothic New Bold;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.highlighted {
+  color: #7a7a7a;
+  font-family: Zen Kaku Gothic New Bold;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.skill-section {
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+
+.skill-heading {
+  padding: 0 165px;
+}
+
+.experience-section {
+  padding: 0 165px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+

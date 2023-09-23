@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  display: flex;
+  gap: 135px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.text {
+  color: #bebebe;
+  font-family: "Zen Kaku Gothic New Bold";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+.reviewed-by {
+  color: #929292;
+  font-family: "Zen Kaku Gothic New Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.image-container {
+  height: 150px;
+  min-width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(1);
+}

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  margin-right: 157px;
+}
+
+.triangle {
+  height: 11px;
+  width: 11px;
+  clip-path: polygon(0% 0%, 100% 100%, 100% 0%);
+  background-color: white;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.media {
+  color: #bebebe;
+  font-family: "Zen Kaku Gothic New Bold";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.description {
+  color: #bebebe;
+  font-family: "Zen Kaku Gothic New Bold";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

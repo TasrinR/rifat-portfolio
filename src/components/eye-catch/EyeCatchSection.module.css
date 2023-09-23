@@ -1,0 +1,72 @@
+.section {
+  min-height: 100vh;
+  min-width: 100%;
+  background: url("/images/eye-catch.svg") no-repeat bottom / cover;
+  padding-top: 110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.eye-catch-vector {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+}
+
+.ui-span {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.ui-span > h1 {
+  color: #000;
+  font-family: "Zen Kaku Gothic New Medium";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ui-span > p {
+  color: #000;
+  font-family: Fasthand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ui-heading {
+  color: #fff;
+  font-family: Caveat Brush;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 51.2px;
+  margin-top: 47px;
+  text-transform: uppercase;
+}
+
+.ui-second-heading {
+  color: #fff;
+  font-family: Zen Kaku Gothic New Light;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 38.4px;
+  text-transform: uppercase;
+  margin-top: -38px;
+}

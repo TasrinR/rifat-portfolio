@@ -1,0 +1,20 @@
+[
+  {
+    "review": "“Great to work with - always ready to push the envelope!",
+    "reviewedBy": "Walker",
+    "country": "United States",
+    "profile": "/images/walker.jpg"
+  },
+  {
+    "review": "“Quick and professional",
+    "reviewedBy": "Barbora",
+    "country": "Czech Republic",
+    "profile": "/images/barbora.jpg"
+  },
+  {
+    "review": "“Delivered something beyond my expectations! will definitely work with him again",
+    "reviewedBy": "Mapletechca",
+    "country": "Canada",
+    "profile": "/images/maple.jpg"
+  }
+]

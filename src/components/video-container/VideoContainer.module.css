@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.video {
+  object-fit: cover;
+  object-position: center;
+  min-width: 100%;
+  aspect-ratio: 16/9;
+}

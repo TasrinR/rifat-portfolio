@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  background-color: black;
+}
+
+.area {
+  width: 1440px;
+  padding: 64px 165px;
+  display: flex;
+  gap: 67px;
+  margin: 0 auto;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.heading {
+  color: #bebebe;
+  font-family: "Zen Kaku Gothic New Bold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.4px;
+  text-transform: uppercase;
+}
+
+.personal-info-container {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.social-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 35px;
+}
+
+.social-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-section {
+  display: flex;
+  width: 310px;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 15px;
+}
+
+.contact-name {
+  color: #bebebe;
+  font-family: "Zen Kaku Gothic New Bold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact-info {
+  color: #7a7a7a;
+  font-family: "Zen Kaku Gothic New Bold";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 4px;
+}
