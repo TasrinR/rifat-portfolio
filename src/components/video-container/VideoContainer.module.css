@@ -7,6 +7,6 @@
 .video {
   object-fit: cover;
   object-position: center;
-  min-width: 100%;
+  width: 100%;
   aspect-ratio: 16/9;
 }
