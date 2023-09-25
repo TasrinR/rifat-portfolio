@@ -74,3 +74,17 @@
   line-height: normal;
   margin-top: 4px;
 }
+
+
+@media (max-width:  1439px) {
+  .area {
+    width: 100%;
+  }
+}
+
+@media (max-width:  1279px) {
+  .area {
+    padding: 64px 100px;
+    gap: 30px;
+  }
+}

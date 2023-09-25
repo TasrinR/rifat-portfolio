@@ -27,7 +27,7 @@
   text-transform: uppercase;
   margin-top: -14px;
   z-index: 2;
-  transition: color .5s ease-in-out;
+  transition: color 0.5s ease-in-out;
 }
 
 .description {
@@ -67,4 +67,16 @@
 .item:hover .description {
   color: #fff;
   display: block;
+}
+
+@media (max-width: 1279px) {
+  .item {
+    width: 100%;
+    height: 64px;
+    padding: 0 100px;
+  }
+
+  .heading {
+    font-size: 48px;
+  }
 }

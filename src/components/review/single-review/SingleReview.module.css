@@ -45,3 +45,27 @@
   object-position: center;
   filter: grayscale(1);
 }
+
+@media (max-width: 1279px) {
+  .container {
+    gap: 68px;
+  }
+
+  .text {
+    font-size: 32px;
+  }
+
+  .reviewed-by {
+    font-size: 16px;
+  }
+
+  .image-container {
+    height: 100px;
+    min-width: 100px;
+  }
+
+  .image {
+    height: 100px;
+    width: 100px;
+  }
+}

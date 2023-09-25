@@ -76,3 +76,21 @@
 .item:hover .description {
   color: #fff;
 }
+
+@media (max-width: 1279px) {
+  .item {
+    padding: 0 100px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .sub-description {
+    font-size: 12px;
+  }
+}

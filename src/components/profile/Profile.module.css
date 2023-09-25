@@ -49,3 +49,25 @@
   gap: 64px;
 }
 
+@media (max-width: 1279px) {
+  .about-me-section {
+    padding: 0 100px;
+  }
+  
+  .content {
+    font-size: 32px;
+  }
+  
+  .highlighted {
+    font-size: 32px;
+  }
+  
+  .skill-heading {
+    padding: 0 100px;
+  }
+  
+  .experience-section {
+    padding: 0 100px;
+  }
+}
+

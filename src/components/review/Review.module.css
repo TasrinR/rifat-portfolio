@@ -6,3 +6,10 @@
   flex-direction: column;
   gap: 64px;
 }
+
+@media (max-width: 1279px) {
+  .review-section {
+    padding: 64px 100px;
+  }
+  
+}

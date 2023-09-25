@@ -8,3 +8,9 @@
   letter-spacing: 6.4px;
   text-transform: uppercase;
 }
+
+@media (max-width: 1279px) {
+  .sub-heading {
+    font-size: 14px;
+  }
+}
