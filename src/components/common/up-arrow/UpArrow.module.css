@@ -16,3 +16,18 @@
 .arrow-image {
   object-fit: contain;
 }
+
+@media (max-width: 767px) {
+  .up-arrow {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+
+  .arrow-image {
+    height: 14px;
+    width: 14px;
+  }
+}
