@@ -94,3 +94,44 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 767px) {
+  .item {
+    height: auto;
+    padding: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #000;
+    gap: 5px;
+  }
+
+  .heading {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .description {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .sub-description {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .item::before {
+    display: none;
+  }
+
+  .item:hover .heading {
+    color: #fff;
+  }
+  .item:hover .description {
+    color: #fff;
+  }
+}

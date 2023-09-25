@@ -80,3 +80,42 @@
     font-size: 48px;
   }
 }
+
+@media (max-width: 767px) {
+  .item {
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    background-color: black;
+    gap: 10px;
+  }
+
+  .heading {
+    color: #bebebe;
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  .description {
+    width: unset;
+    color: #bebebe;
+    display: block;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .item::before {
+    display: none;
+  }
+
+  .item:hover::before {
+    transform: unset;
+  }
+
+  .item:hover .heading {
+    color: #bebebe;
+  }
+  .item:hover .description {
+    color: #bebebe;
+  }
+}

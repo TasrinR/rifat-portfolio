@@ -24,6 +24,11 @@ body {
   background-color: #fefefe;
 }
 
+body.hide {
+  height: 100vh;
+  overflow: hidden;
+}
+
 a {
   color: inherit;
   text-decoration: none;

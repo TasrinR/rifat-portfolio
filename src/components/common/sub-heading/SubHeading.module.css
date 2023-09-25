@@ -14,3 +14,9 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 767px) {
+  .sub-heading {
+    font-size: 12px;
+  }
+}

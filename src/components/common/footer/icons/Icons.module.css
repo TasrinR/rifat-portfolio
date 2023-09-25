@@ -13,3 +13,18 @@
   object-fit: cover;
   object-position: center;
 }
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+}

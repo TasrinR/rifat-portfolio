@@ -70,3 +70,26 @@
   text-transform: uppercase;
   margin-top: -38px;
 }
+
+@media (max-width: 767px) {
+  .ui-span > h1 {
+    font-size: 24px;
+  }
+  
+  .ui-span > p {
+    font-size: 16px;
+  }
+  
+  .ui-heading {
+    font-size: 40px;
+    letter-spacing: 26px;
+    margin-left: 30px;
+  }
+  
+  .ui-second-heading {
+    font-size: 32px;
+    letter-spacing: 16px;
+    margin: 0 0 0 20px;
+  }
+  
+}
